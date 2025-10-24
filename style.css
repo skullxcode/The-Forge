@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    width: 100%;
+    background-color: #d6e8f4;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+#global-navbar{
+    background-color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    border-bottom: 2px solid #080840;
+}
+
+#global-navbar-icons{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+#global-navbar-icons>a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#global-navbar-img{
+    width: 40%;
+    height: 80%;
+}
+
+#global-navbar-links-section{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.global-navbar-links{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 100%;
+    margin: 5%;
+    transition: 0.3s;
+}
+
+.global-navbar-links:hover{
+    color: #2a62a5;
+    font-size: 140%;
+    transition: 0.3s;
+}
+
+.hero{
+    padding-top: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 88vh;
+    background-image: url("bg-home.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-position: center top -60px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-title{
+    margin-top: 15vh;
+    font-family: 'Press Start 2P', monospace;
+    transition: 0.5s;
+    font-size: 300%;
+    font-weight: 700;
+    margin-bottom: 10vh;
+}
+
+.hero-section:hover .hero-title{
+    transition: 0.5s;
+    font-size: 350%;
+    color: rebeccapurple;
+    cursor: grab;
+}
+
+.hero-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 130%;
+    max-width: 600px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.hero-section:hover .hero-subtitle{
+    transition: 0.5s;
+    color: orangered;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 80%;
+}
+
+.btn{
+    margin-top: 12vh;
+}
+
+.btn-primary{
+    text-decoration: none;
+    font-size: 140%;
+    font-family: 'Lato', sans-serif;
+    background-color: #060640;
+    padding: 2vh 3vh 2vh 3vh;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.btn-primary:hover{
+    padding: 2vh 4vh 2vh 4vh;
+    border:2px solid #060640;
+    transition: 0.5s;
+    color: #060640;
+    background-color: white;
+}
+
+.priciples>h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10vh;
+    font-size: 300%;
+}
+
+.priciples-container{
+    display: flex;
+    justify-self: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 100%;
+}
+
+.cards{
+    border: 2px solid #080840;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+
+}
+.cards:hover{
+    width: 50%;
+    transition: 0.5s;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 150%;
+}
+.cards:hover .cards-title{
+    font-family: 'Press Start 2P', monospace;
+    transition: 0.5s;
+    color: white;
+    font-size: 280%;
+}
+
+.cards-title{
+    font-size: 250%;
+    font-weight: 800;
+    color: #060640;
+}
+
+.cards-content{
+    font-size: 130%;
+}
+
+footer{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5vh;
+    height: 25vh;
+    background-color: #080840;
+    color: white;
+}
+
+.quick-links-container{
+    padding: 5vh 5vh 3vh 5vh;
+}
+
+footer>div>h3{
+    text-align: center;
+    margin-bottom: 5vh;
+    font-size: 150%;
+}
+
+.quick-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quick-links>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.quick-links>a:hover{
+    color: orangered;
+    font-size: 110%;
+    transition: 0.5s;
+
+}
+
+.trademark{
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: white;
+    color: #080840;
+}
+
