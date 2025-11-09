@@ -26,8 +26,96 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="main-content">
 
+        <aside class="sidebar">
+            <h4>Utilities</h4>
+            <nav class="sidebar-nav">
+                <a href="#spacing">Spacing</a>
+                <a href="#text">Text</a>
+            </nav>
+        </aside>
+
+        <section class="page-content utilities-page">
+            <h1>Utilities</h1>
+            <p class="page-intro">Helper classes for applying quick, single-purpose styles directly in your HTML without writing new CSS.</p>
+
+            <section id="spacing" class="content-section-box">
+                <h2>Spacing</h2>
+                <p>
+                    Use these classes to quickly add margin (<code>m</code>) or padding (<code>p</code>).
+                    The direction is specified (<code>t, b, l, r, x, y</code>) and the size is a multiple of our 8px unit (1 = 8px, 2 = 16px, 3 = 24px).
+                </p>
+                
+                <table class="utility-table">
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>CSS Property</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>.mt-1</code></td>
+                            <td><code>margin-top: 8px;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.mb-2</code></td>
+                            <td><code>margin-bottom: 16px;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.ml-3</code></td>
+                            <td><code>margin-left: 24px;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.py-2</code></td>
+                            <td><code>padding-top: 16px; padding-bottom: 16px;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.px-3</code></td>
+                            <td><code>padding-left: 24px; padding-right: 24px;</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="text" class="content-section-box">
+                <h2>Text</h2>
+                <p>Classes for quickly changing text alignment, weight, and color.</p>
+                
+                <table class="utility-table">
+                    <thead>
+                        <tr>
+                            <th>Class</th>
+                            <th>CSS Property</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>.text-center</code></td>
+                            <td><code>text-align: center;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.text-right</code></td>
+                            <td><code>text-align: right;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.font-bold</code></td>
+                            <td><code>font-weight: 900;</code> (Uses 'Lato')</td>
+                        </tr>
+                        <tr>
+                            <td><code>.text-primary</code></td>
+                            <td><code>color: #2a62a5;</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>.text-danger</code></td>
+                            <td><code>color: #721c24;</code> (Uses alert color)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+        </section>
     </main>
     <footer>
         <div class="quick-links-container">
