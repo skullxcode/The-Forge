@@ -1,4 +1,4 @@
-# The Forge forge
+# The Forge
 
 Welcome to **The Forge**, a pure HTML/CSS design system website. This project serves as a documentation site for a design system, outlining its components, foundations, and utilities.
 
